@@ -1,0 +1,26 @@
+{
+    "cars" : [
+        {
+            "id":1,
+            "Title":"Mazda",
+            "Image":"https://www.topgear.com/sites/default/files/cars-car/carousel/2021/02/cx-5-skyactiv-g-awd-gt-sport-auto-action-3.jpg?w=892&h=502",
+            "Capicity" : 4,
+            "Price":" Ksh 4,000 Per Day"
+        },
+        {
+            "id":1,
+            "Title":"Premio",
+            "Image":"https://global.toyota/pages/models/images/20191018/kv/premio_w1920_01.jpg",
+            "Capicity" : 4,
+            "Price":" Ksh 4,500 Per Day"
+        },
+        {
+            "id":1,
+            "Title":"LandCruiser Prado",
+            "Image":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT93Gqq2NVI_fKj7Juj8R5Q6YwrD4J6CeEATv93r1lu2zFRAPbm",
+            "Capicity" : 4,
+            "Price":" Ksh 4,000 Per Day"
+        }
+
+    ]
+}

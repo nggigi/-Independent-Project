@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Car Hire Company </title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    
+   <h2> Smart Car Hire Company</h2>
+   <p id="para-el"> The Best Car Hire Company in Africa</p>
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="./available.html">HIRE A CAR</a></li>
+             <li><a href="./about.html">ABOUT US</a></li>
+            <li><a href="./supportFaqs.html">ASISTANCE  </a></li>
+            <li><a href="./privacy.html">COMPANY POLICIES</a></li>
+            <li><a href="https://docs.google.com/forms/d/1_zGMSOvl2f-fwDT1bd88ne3WdTlQFAvlN9aJ9PRNzn4/edit">FEEBACK</a></li>
+        </ul>
+    
+    </nav>
+    <form id="form">
+       
+        <lable>Enter Email:</lable><br>
+        <input type="text" id="email-el" placeholder="Francis@gmail.com"><br>
+        <lable>Enter Password :</lable><br>
+        <input type="text" id="password-el" placeholder="34@1234F"><br>
+        <input type="submit" value="Sign In " onclick="signIn()"><br>
+        <input type="checkbox" value="Remembe Me" onclick="rememberme()">
+        <lable>Remember Me:</lable><br><br>
+        <a href="./registrationform.html">Create Account</a><br>
+        <a href="./resetpassword.html">Reset Passowd?</a>
+        <h3><a href="https://www.linkedin.com/">Log With Linked In</a></h3>
+        <h3><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Log in With Google </a></h3>
+        <h3><a href="https://www.facebook.com/">Log in With Facebook</a></h3>
+    </form>
+    <h3>Available Cars </h3>
+    <button onclick="renderOneCar()">Click to see Available Cars </button>
+    <div id="container">
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>

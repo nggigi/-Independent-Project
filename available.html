@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Car</title>
+</head>
+<style>
+    body{
+        background-color: rgb(190, 149, 149);
+    }
+#pp{
+    width: 100px;
+    height: 100px;
+}
+#carAvailable{
+    margin-left: 2%;
+}
+</style>
+<body>
+    <form>
+    
+        <label>Enter Car Title</label><br>
+        <input type="text" placeholder="Enter FirstName" id="title" required ><br>
+        <label>Enter Car Iamge </label><br>
+        <input type="text" placeholder="Enter Second Name" id="image"required ><br>
+        <label>Enter Capacity </label><br>
+        <input type="text" placeholder="Enter Email" id="capacity" required><br>
+        <label>Enter Price Per Day</label><br>
+        <input type="text" placeholder="Enter FirstName" id="fname" required ><br><br>
+        <button onclick="addcar()">Add Car</button><br><br>
+    </form>
+    <div id="carAvailable">
+    <P id="m">Mazda Demio</P>
+    <image id="pp" src="./photo2.png"></image>
+    <p>Khs3000 per Day</p>
+    <button onclick="hireCar()">Hire</button>
+
+    <p id="p">Premio</p>
+    <img id="pp" src="./photo.png">
+    <p>Kshs 4000/- Per Day</p>
+    <button>Hire</button>
+    <p i="h">Honda Fit</p>
+    <img id="pp" src="./photo3.png">
+    <p>Kshs 5000/- Per Day</p>
+    <button>Hire</button>
+   </div>
+</body>
+<script>
+    
+   function hireCar(){
+    let pEl=document.getElementById("p") 
+    let mEl=document.getElementById("m") 
+    let hEl=document.getElementById("h")  
+    prompt ("Please Enter Mpesa No  To Hire This Vehicle.")
+   }
+
+   function addcar(){
+    let carDetails=document.getElementById("title").value
+    alert(`${carDetails} addedd successfully` )
+   }
+</script>
+</html>
